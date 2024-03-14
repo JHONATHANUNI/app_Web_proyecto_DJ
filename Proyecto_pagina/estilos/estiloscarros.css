@@ -1,0 +1,51 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+}
+
+.detalle {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #ffffff;
+    text-align: left;
+}
+
+.modelo {
+    margin-top: 20px;
+}
+
+.modelo img {
+    width: 500%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.modelo h3 {
+    color: #FF5A12;
+    text-align: left;
+}
+
+.modelo p {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #2b2b2b;
+    padding: 20px 0;
+    justify-content: center; /* Centramos horizontalmente */
+    text-align: center;
+}
