@@ -1,0 +1,53 @@
+/* Agrega estilos específicos para la página de diseñadores aquí */
+.designers {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.designer-card {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designer-info {
+    flex-basis: 50%;
+    text-align: left;
+}
+
+.designer-img {
+    flex-basis: 50%;
+    max-width: 500px; /* Cambia el tamaño máximo de la imagen aquí */
+    height: 350px; /* Ajusta automáticamente la altura según el tamaño máximo */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.designer-img img {
+    max-width: 500%;
+    height: 350px;
+}
+
+.designer-info h3 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.designer-info p {
+    color: #e0e0e0;
+    font-size: 17px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    padding: 50px 0;
+    color: white; /* Color blanco para el texto */
+    background-color: #1b1726; /* Color de fondo del pie de página */
+}
+
+.footer p {
+    margin: 0; /* Elimina el margen predeterminado */
+}
